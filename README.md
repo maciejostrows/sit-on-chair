@@ -1,1 +1,1 @@
-# sit-on-chair
+Strona Sit on chair - warsztat CodersLab

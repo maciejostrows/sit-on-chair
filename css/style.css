@@ -1,0 +1,692 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width:1064px;
+    display: inline-block;
+    text-align: center;
+}
+
+header{
+    height: 41px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+}
+
+.header-logo{
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+    padding-top: 13px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+
+.header-logo span{
+    color: #24BA9F;
+}
+
+.header-menu{
+    float: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.header-menu li{
+    display: inline;
+    margin-left: 54px;
+}
+
+.submenu{
+    visibility: hidden;
+    display: inline-block;
+    height: 120px;
+    width: 95px;
+    position: absolute;
+    left: 77px;
+    top: 52px;
+    background-color: black;
+}
+
+.submenu div{
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.submenu-arrow{
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: -40px;
+    left: 30px;
+}
+
+.submenu-activator:hover .submenu{
+    visibility: visible;
+}
+
+.col-20{
+    width: 10%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.col-40{
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.main{
+    width: 100%;
+    height: 420px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+    text-align: center;
+    padding-top: 84px;
+}
+
+.main-content{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.left-arrow{
+    height: 40px;
+    width: 40px;
+    border-bottom: 3px solid #24BA9F;
+    border-left: 3px solid #24BA9F;
+    transform: rotate(45deg);
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 106px;
+}
+
+.chair-photo{
+    background-image: url("../images/black_chair.png");
+    width: 470px;
+    height: 421px;
+    background-size: cover;
+    position: absolute;
+    top: -63px;
+    left: -143px;
+}
+
+.main-description{
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-description-title{
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    left: -46px;
+    width: 100%;
+}
+
+.main-description-title span{
+    color: #24BA9F;
+}
+
+.main-description-text{
+    position: absolute;
+    left: 10px;
+    top: 76px;
+    width: 81%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+.main-description-button{
+    width: 100%;
+    position: absolute;
+    top: 193px;
+    left: -40px;
+}
+
+.main-description-button a{
+    display: inline-block;
+    text-decoration: none;
+    width: 265px;
+    height: 45px;
+    background-color: #24BA9F;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-top: 7px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.right-arrow{
+    height: 40px;
+    width: 40px;
+    border-top: 3px solid #24BA9F;
+    border-right: 3px solid #24BA9F;
+    transform: rotate(45deg);
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 106px;
+}
+
+.photos{
+    margin-top: 30px;
+    height: 320px;
+}
+
+.col-1-3{
+    width: 327px;
+    height: 225px;
+    float: left;
+    margin-right: 27px;
+}
+
+.photos-background-1{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/box1_img.jpg");
+    background-size: contain;
+    position: relative;
+}
+
+.photos-background-2{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/box2_img.jpg");
+    background-size: contain;
+    position: relative;
+}
+
+.photos-opacity{
+    width: 100%;
+    height: 62px;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 147px;
+}
+
+.photos-text{
+    text-align: left;
+    position: absolute;
+    top:13px;
+    left: 16px;
+}
+
+.photos-greenbar{
+    width: 140px;
+    height: 8px;
+    background-color: #24BA9F;
+    position: absolute;
+    top: 33px;
+    left: 10px;
+}
+
+.col-1-3-textbox{
+    position: relative;
+}
+
+.col-1-3-title{
+    text-align: left;
+    position: absolute;
+    left: 28px;
+    top: 26px;
+}
+
+.photos-greenbar-textbox{
+    width: 140px;
+    height: 8px;
+    background-color: #24BA9F;
+    position: absolute;
+    top: 46px;
+    left: 28px;
+}
+
+.col-1-3-text{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 16px;
+}
+
+.cennik{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 724px;
+}
+
+.cennik-title{
+    position: relative;
+    margin-top: 43px;
+}
+
+.cennik-title-text{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 21px;
+
+}
+
+.cennik-greenbar{
+    width: 320px;
+    height: 8px;
+    background-color: #24BA9F;
+    position: absolute;
+    top: 31px;
+    left: -2px;
+}
+
+.cennik-columns{
+    width: 100%;
+    margin-top: 90px;
+    position: relative;
+}
+
+.cennik-element-white{
+    width: 100%;
+    border: 1px solid #d4d4d4;
+    position: relative;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.cennik-element-white::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d4d4d4;
+    border-radius: 50px;
+    left: 135px;
+    top: -35px;
+    background-color: #d4d4d4;
+    box-shadow: inset 0px 0px 0px 14px #ffffff;
+}
+
+.cennik-element-green{
+    width: 100%;
+    border: 1px solid #24ba9f;
+    position: relative;
+    height: 500px;
+    background-color: #24ba9f;
+}
+
+.cennik-element-green::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #24ba9f;
+    border-radius: 50px;
+    left: 135px;
+    top: -35px;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 0px 14px #24ba9f;
+}
+
+.cennik-nazwa-green{
+    text-transform: uppercase;
+    color: #24ba9f;
+    font-size: 22px;
+    margin-top: 28px;
+}
+
+.cennik-nazwa-white{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 28px;
+}
+
+.cennik-cena{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #d4d4d4;
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-left: 95px;
+    position: relative;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+}
+
+.cennik-cena-pelna{
+    position: absolute;
+    top: 15px;
+    left: 45px;
+}
+
+.cennik-cena-big{
+    float: left;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    left: -14px;
+    color: #d4d4d4;
+}
+
+.cennik-cena-big-2{
+    float: left;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    left: -23px;
+    color: #d4d4d4;
+}
+
+.cennik-cena-small{
+    float: left;
+    font-size: 20px;
+    position: absolute;
+    top: 13px;
+    left: 40px;
+    color: #d4d4d4;
+}
+
+.cennik-cena-big-green{
+    float: left;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    left: -14px;
+    color: #24ba9f;
+}
+
+.cennik-cena-small-green{
+    float: left;
+    font-size: 20px;
+    position: absolute;
+    top: 13px;
+    left: 40px;
+    color: #24ba9f;
+}
+
+.cennik-cena-opis{
+    position: absolute;
+    top: 81px;
+    left: 26px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #d4d4d4;
+}
+
+.cennik-cena-opis-green{
+    position: absolute;
+    top: 81px;
+    left: 26px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #24ba9f;
+}
+
+.cennik-greybar{
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    color: #909090;
+}
+
+.cennik-whitebar{
+    background-color: #ffffff;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    color: #909090;
+}
+
+.cennik-button a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 119px;
+    height: 34px;
+    background-color: #24ba9f;
+    margin-top: 38px;
+    border-radius: 10px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.cennik-button-white a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 119px;
+    height: 34px;
+    background-color: #ffffff;
+    margin-top: 38px;
+    border-radius: 10px;
+    line-height: 35px;
+    color: #24ba9f;
+}
+
+.kontakt{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.kontakt-title{
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 33px;
+    margin-left: 5px;
+}
+
+.kontakt-greenbar{
+    width: 320px;
+    height: 7px;
+    background-color: #24ba9f;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.kontakt-main{
+    background-color: lightblue;
+    margin-top: 35px;
+}
+
+.kontakt-left{
+    width: 700px;
+    padding-top: 10px;
+    float: left;
+}
+
+.kontakt-right{
+    width: 300px;
+    position: relative;
+    float: left;
+}
+
+input{
+    display: block;
+    width: 635px;
+    height: 60px;
+    border: 1px solid #24ba9f;
+    margin-left: 2px;
+    margin-bottom: 30px;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+input::placeholder{
+    font-size: 40px;
+    padding-left: 10px;
+    opacity: 0.2;
+    line-height: 100px;
+}
+
+textarea{
+    display: block;
+    width: 635px;
+    height: 180px;
+    border: 1px solid #24ba9f;
+    resize: none;
+    font-size: 30px;
+}
+
+textarea::placeholder{
+    font-size: 40px;
+    padding-left: 10px;
+    opacity: 0.2;
+}
+
+.kontakt-image{
+    background-image: url(../images/red_chair.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -15px;
+    left: 16px;
+    width: 300px;
+    height: 205px;
+}
+
+.kontakt-checkbox{
+    position: absolute;
+    width: 100%;
+    top: 220px;
+    left: -8px;
+}
+
+#check{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #24ba9f;
+    float: left;
+    position: relative;
+}
+
+#check::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid #24ba9f;
+    top: 0px;
+    left: 0px;
+}
+
+#check:checked::after{
+    background-image: url("../images/form_ok.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+label{
+    display: inline-block;
+    width: 230px;
+    opacity: 0.3;
+    margin-top: 12px;
+}
+
+.kontakt-button a{
+    display: inline-block;
+    width: 341px;
+    height: 55px;
+    background-color: #24ba9f;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 310px;
+    border-radius: 10px;
+    margin-left: -6px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+footer{
+    margin-top: 71px;
+}
+
+.footer-left{
+    text-align: left;
+    color: #909090;
+    width: 695px;
+    float: left;
+    margin-top:15px;
+}
+
+.footer-right{
+    width: 350px;
+    float: left;
+}
+
+.footer-icons{
+    float: left;
+}
+
+.flickr{
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/flickr.png");
+    background-size: cover;
+    float: left;
+}
+
+.vimeo{
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/vimeo.png");
+    background-size: cover;
+    float: left;
+}
+
+.pinterest{
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/pinterest.png");
+    background-size: cover;
+    float: left;
+}
+
+.twitter{
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/twitter.png");
+    background-size: cover;
+    float: left;
+}
+
+.footer-logo{
+    float: left;
+    font-size: 20px;
+    color: #909090;
+    text-align: right;
+    padding-left: 70px;
+    text-transform: uppercase;
+}
