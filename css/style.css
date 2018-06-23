@@ -25,6 +25,7 @@ header{
     padding-top: 13px;
     margin-left: 0px;
     font-size: 15px;
+    color: #ffffff;
 }
 
 .header-logo span{
@@ -42,36 +43,36 @@ header{
 .header-menu-li{
     display: inline;
     margin-left: 54px;
+    cursor: pointer;
 }
 
 .submenu{
     visibility: hidden;
     display: block;
     height: 120px;
-    width: 95px;
+    width: 120px;
     position: absolute;
-    /*left: 77px;*/
-    /*top: 52px;*/
-    background-color: black;
 }
 
 .submenu-li{
     height: 20px;
     padding-top: 10px;
-    padding-left: 5px;
+    padding-left: 15px;
     text-align: left;
     text-transform: capitalize;
+    list-style-type: none;
+    background-color: #000000;
 }
 
 .submenu-arrow{
     width: 0px;
     height: 0px;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid black;
-    border-left: 20px solid transparent;
-    position: absolute;
-    top: -40px;
-    left: 30px;
+    border-right: 15px solid transparent;
+    border-bottom: 12px solid #000000;
+    border-left: 15px solid transparent;
+    list-style-type: none;
+    margin-left: 37px;
+    margin-top: 11px;
 }
 
 .submenu-activator:hover .submenu{
