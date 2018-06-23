@@ -39,23 +39,23 @@ header{
     position: relative;
 }
 
-.header-menu li{
+.header-menu-li{
     display: inline;
     margin-left: 54px;
 }
 
 .submenu{
     visibility: hidden;
-    display: inline-block;
+    display: block;
     height: 120px;
     width: 95px;
     position: absolute;
-    left: 77px;
-    top: 52px;
+    /*left: 77px;*/
+    /*top: 52px;*/
     background-color: black;
 }
 
-.submenu div{
+.submenu-li{
     height: 20px;
     padding-top: 10px;
     padding-left: 5px;
